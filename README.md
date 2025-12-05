@@ -1,16 +1,20 @@
-# testing
+JIT vs AOT Compilation
 
-A new Flutter project.
+JIT (Just-In-Time) compiles code during runtime, enabling fast development features like hot reload.
+AOT (Ahead-Of-Time) compiles the app into optimized machine code before execution, giving faster startup and better performance for release builds.
 
-## Getting Started
+How Conditionals Were Used
 
-This project is a starting point for a Flutter application.
+The app reads the number entered by the user and uses an if-else statement to check:
 
-A few resources to get you started if this is your first Flutter project:
+If number % 2 == 0, it is Even
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Otherwise, it is Odd
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This demonstrates Dart’s basic conditional flow.
+
+How String Interpolation Was Used
+
+The final message shown on the screen uses Dart's string interpolation:
+"The number $value is Even."
+It lets variables be placed directly inside strings in a clean and readable way.
