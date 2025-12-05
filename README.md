@@ -1,3 +1,46 @@
+SESSION 1:
+
+Flutter Even/Odd Checker App
+1. What I Learned
+
+Difference between Native and Cross-Platform development.
+
+How Hot Reload speeds up development in Flutter.
+
+Understanding Widgets as the building blocks of a Flutter UI.
+
+2. Tools Used
+
+Flutter SDK
+
+VS Code
+
+Android Emulator / Physical Device
+
+3. How I Created the App
+
+Installed Flutter and set up the environment.
+
+Verified setup using:
+
+flutter doctor
+
+
+Created a new Flutter project in VS Code.
+
+Built a simple UI with a TextField, Button, and Text widget.
+
+Added logic to check whether a number is Even or Odd.
+
+4. Run the App
+
+Inside your project folder, run:
+
+flutter run
+
+
+
+SESSION 2:
 JIT vs AOT Compilation
 
 JIT (Just-In-Time) compiles code during runtime, enabling fast development features like hot reload.
