@@ -1,16 +1,31 @@
-# session5_ass
+Home Screen UI Implementation Summary
+1. Using GridView for Layout
 
-A new Flutter project.
+The home screen was built using a two-column GridView, allowing the features to be displayed in an organized, responsive grid layout.
+GridView.count(crossAxisCount: 2) was used to ensure the layout remains clean and evenly spaced on all devices.
 
-## Getting Started
+2. Styling with Container + BoxDecoration
 
-This project is a starting point for a Flutter application.
+Each card on the home screen was created using a Container widget combined with BoxDecoration to provide:
 
-A few resources to get you started if this is your first Flutter project:
+A unique background color
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+A smooth borderRadius for rounded corners
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Padding and margin for clean spacing
+
+Optional shadow for depth (if applied)
+
+This styling helps each card appear as a distinct clickable feature-button in the UI.
+
+3. Placeholder Data (4 Feature Cards)
+
+The app currently includes four placeholder cards, displayed using the GridView:
+
+Daily Log
+
+Cyber Tips
+
+Device Security
+
+![session5](https://github.com/user-attachments/assets/7d3059da-f276-497a-82e3-d4648f4efd9f)
