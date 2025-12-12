@@ -36,11 +36,11 @@ class DashboardScreen extends StatelessWidget {
           crossAxisSpacing: 16,
           mainAxisSpacing: 16,
 
-          children: const [
-            DashboardBox(title: "Daily Log", color: Colors.blue),
-            DashboardBox(title: "Cyber Tips", color: Colors.green),
-            DashboardBox(title: "Device Security", color: Colors.orange),
-            DashboardBox(title: "Notes", color: Colors.red),
+         children: const [
+            DashboardBox(title: "Daily Log", color: Color(0xFFFFF3B0)),  
+            DashboardBox(title: "Cyber Tips", color: Color(0xFFB0E57C)),    
+            DashboardBox(title: "Device Security", color: Color(0xFFA0E7E5)), 
+            DashboardBox(title: "Notes", color: Color(0xFFFFC4C4)),          
           ],
         ),
       ),
