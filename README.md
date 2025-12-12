@@ -45,3 +45,6 @@ Same styling as card 1
 Displays: "Dashboard Card 2"
 
 Both cards demonstrate how to create a clean dashboard tile using Container + BoxDecoration.
+
+
+![session4](https://github.com/user-attachments/assets/91dda24f-c2ae-4659-b199-1bb32eda75db)
