@@ -1,16 +1,47 @@
-# session6_ass
 
-A new Flutter project.
+It is a simple Flutter application that demonstrates the use of a BottomNavigationBar to navigate between multiple screens within a single layout.
 
-## Getting Started
+Features
 
-This project is a starting point for a Flutter application.
+BottomNavigationBar with three tabs:
 
-A few resources to get you started if this is your first Flutter project:
+Home
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Logs
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Settings
+
+Smooth switching between screens
+
+Clean and minimal user interface
+
+App Structure
+
+The app uses a StatefulWidget to manage navigation state.
+
+A selected index tracks the active tab
+
+A list of screens is used to update the main content
+
+The displayed screen changes when a tab is selected
+
+Screens Overview
+
+Home
+Displays basic system status information.
+
+Logs
+Shows recent activity messages in a list format.
+
+Settings
+Includes toggle options for notifications and dark mode.
+
+Learning Outcome
+
+This project helps in understanding:
+
+BottomNavigationBar implementation
+
+Basic state management using setState
+
+Dynamic UI updates in Flutter
