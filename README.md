@@ -1,16 +1,49 @@
-# session9_ass
+This is a Flutter application that implements a daily checklist using the Hive local database. The app allows users to add tasks, mark them as completed, and delete them. All data is stored locally and persists across app restarts.
 
-A new Flutter project.
+The project demonstrates practical usage of local storage, reactive UI updates, and clean UI structuring in Flutter.
 
-## Getting Started
+Features
 
-This project is a starting point for a Flutter application.
+Add daily checklist tasks
 
-A few resources to get you started if this is your first Flutter project:
+Mark tasks as completed or incomplete
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Delete tasks from the list
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Automatically load saved tasks on app startup
+
+Display task completion progress
+
+Offline-first local storage using Hive
+
+Technology Stack
+
+Flutter (Dart)
+
+Hive
+
+hive_flutter
+
+Material Design 3
+
+Data Storage
+
+The app uses a Hive box named checklist to store tasks locally.
+
+Each task is stored as a key-value map:
+
+title: String
+
+done: Boolean
+
+This ensures fast access and persistence without relying on external databases.
+
+Architecture
+
+Single main.dart file
+
+Stateful widgets for UI control
+
+Hive for local data persistence
+
+ValueListenableBuilder for real-time UI updates
