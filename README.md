@@ -16,4 +16,4 @@ It visualizes risks using a cyber-themed HUD interface inspired by modern cybers
 - Direct Access to App Settings  
 
 ![WhatsApp Image 2026-01-21 at 11 52 00](https://github.com/user-attachments/assets/6a58f24a-e2ea-4854-8939-eed5e7320c61)
-![WhatsApp Image 2026-01-21 at 11 52 00](https://github.com/user-attachments/assets/02ba448f-fa08-4c2d-8088-3d9e86e1aca4)
+![WhatsApp Image 2026-01-21 at 11 52 01](https://github.com/user-attachments/assets/043c3288-010f-44ce-8b09-a64dc532d2db)
