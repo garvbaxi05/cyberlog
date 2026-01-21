@@ -1,16 +1,19 @@
-# session13ass
+# 🔐 CyberLog – Mobile Security Dashboard
 
-A new Flutter project.
+CyberLog is a futuristic Android security dashboard built with **Flutter** that analyzes device permissions, security posture, and user awareness to generate a real-time **Security Score**.
 
-## Getting Started
+It visualizes risks using a cyber-themed HUD interface inspired by modern cybersecurity systems.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ⚡ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Overall Security Score (0–100)
+- Permission Risk Analysis  
+- Security Timeline Logs  
+- OWASP Mobile Top 10 Mapping  
+- AI-style Security Recommendations  
+- Direct Access to App Settings  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![WhatsApp Image 2026-01-21 at 11 52 00](https://github.com/user-attachments/assets/6a58f24a-e2ea-4854-8939-eed5e7320c61)
+![WhatsApp Image 2026-01-21 at 11 52 00](https://github.com/user-attachments/assets/02ba448f-fa08-4c2d-8088-3d9e86e1aca4)
